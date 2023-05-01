@@ -203,7 +203,7 @@ Congratulations! You are now ready to apply your Terraform code.
 Make sure you are working on the desired project
 > gcloud config set core/project $PROJECT_ID
 
-First, impersonate your service account for short-lived oauth token:
+Next, impersonate your service account for short-lived oauth token:
 > gcloud config set auth/impersonate_service_account $SVC_ACCT_EMAIL
 
 Next, set ENV var for terraform authentication:
